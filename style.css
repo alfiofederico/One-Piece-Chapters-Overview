@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Neue', cursive;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+header {
+  background-image: url('https://static.bandainamcoent.eu/high/one-piece/one-piece-pirate-warriors-4/00-page-setup/oppw4_banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+header * {
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0 0 30px;
+}
+
+form {
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+}
+
+form input {
+  border: 0;
+  border-radius: 20%;
+  font-size: 16px;
+  padding: 15px 30px;
+  width: 20%;
+}
+
+form button {
+  position: absolute;
+  top: 70px;
+  right: 208px;
+  background-color: #e056fd;
+  border: 0;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 13px 25px;
+}
+
+.btn {
+  background-color: #8d56fd;
+  border: 0;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 4px 10px;
+}
+
+
+
+.container {
+  margin: 30px auto;
+  max-width: 100%;
+  width: 500px;
+}
+
+.container h2 {
+  font-weight: 300;
+}
+
+.container p {
+  text-align: center;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#summary {
+  font-size: 20px;
+}
+
+#characters {
+  font-style: italic;
+}
