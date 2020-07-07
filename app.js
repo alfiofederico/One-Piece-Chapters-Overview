@@ -27,7 +27,7 @@ form.addEventListener('submit', e => {
 async function searchChapter(number){
  
 
-  const res = await fetch(`https://cors-anywhere.herokuapp.com/${apiURL}/${number}`);
+  const res = await fetch(`${apiURL}/${number}`);
   const data = await res.json();
 
   /* I had to use a few Regular Expressions because in some instances the chapters titles contain broken double quotes. */
