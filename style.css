@@ -126,11 +126,59 @@ form button {
 
 /* Mobile Css */
 
-@media screen and (max-width: 360px) {
-  header h1 {
-    font-size: 25px ;
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 25px;
   }
 
- 
+  form button {
+    position: absolute;
+    top: 70px;
+    right: 28%;
+    padding: 13px 10px; 
+  }
+
+  form input {
+    border: 0;
+    border-radius: 20%;
+    font-size: 16px;
+    padding: 15px 35px;
+    width: 25%;
+  }
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  form button {
+    position: absolute;
+    top: 70px;
+    right: 25%;
+    padding: 13px 10px; 
+  }
+
+  form input {
+    border: 0;
+    border-radius: 20%;
+    font-size: 16px;
+    padding: 15px 30px;
+    width: 24%;
+  }
 
 }
