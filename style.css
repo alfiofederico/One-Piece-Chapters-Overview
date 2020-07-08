@@ -123,6 +123,21 @@ form button {
   font-style: italic;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #a00abe;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* Mobile Css */
 
