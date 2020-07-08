@@ -1,11 +1,6 @@
 /* Declaring variables */
 
-// from now on we don't call the onepiececover api directly
-// but we call the proxy server we just created
-
-// once you deploy the proxy into "production" you'll need to handle this url here
-// e.g. replace ip below with your proxy server ip
-const proxyUrl = 'http://127.0.0.1:3000';
+const proxyUrl = 'https://fathomless-garden-50014.herokuapp.com';
 
 const form = document.getElementById('form');
 const search = document.getElementById('search');
