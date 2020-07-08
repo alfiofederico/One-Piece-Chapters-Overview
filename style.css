@@ -76,7 +76,7 @@ form input {
 form button {
   position: absolute;
   top: 70px;
-  right: 208px;
+  right: 42%;
   background-color: #e056fd;
   border: 0;
   border-radius: 10px;
@@ -111,12 +111,26 @@ form button {
 
 #title {
   font-size: 30px;
+  color: #a00abe;
 }
 
 #summary {
   font-size: 20px;
+  line-height: 32px;
 }
 
 #characters {
   font-style: italic;
+}
+
+
+/* Mobile Css */
+
+@media screen and (max-width: 360px) {
+  header h1 {
+    font-size: 25px ;
+  }
+
+ 
+
 }
