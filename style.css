@@ -185,7 +185,7 @@ input[type=number] {
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 25px;
   }
@@ -193,8 +193,8 @@ input[type=number] {
   form button {
     position: absolute;
     top: 70px;
-    right: 25%;
-    padding: 13px 10px; 
+    right: 45%;
+    padding: 13px 10px;  */
   }
 
   form input {
@@ -202,8 +202,11 @@ input[type=number] {
     border-radius: 20%;
     font-size: 16px;
     padding: 15px 30px;
-    width: 24%;
+    width: 20%;
   }
 
+  header {
+    width: max-content;
+  }
  
 }
