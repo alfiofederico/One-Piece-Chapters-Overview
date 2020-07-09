@@ -215,15 +215,15 @@ input[type=number] {
   }
 
   #title {
-    margin-left: 22px;
+    margin-left: 25%;
   }
 
   #summary {
-    margin-left: 22px;
+    margin-left: 25%;
   }
 
   #characters {
-    margin-left: 22px;
+    margin-left: 25%;
   }
  
 }
