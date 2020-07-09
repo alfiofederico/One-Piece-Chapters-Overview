@@ -209,12 +209,21 @@ input[type=number] {
     width: max-content;
   }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  #images {
+    
+    margin-left: 22px;
+  }
+
+  #title {
+    margin-left: 22px;
+  }
+
+  #summary {
+    margin-left: 22px;
+  }
+
+  #characters {
+    margin-left: 22px;
   }
  
 }
