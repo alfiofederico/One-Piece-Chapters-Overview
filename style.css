@@ -208,5 +208,13 @@ input[type=number] {
   header {
     width: max-content;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
  
 }
