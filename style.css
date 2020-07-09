@@ -162,6 +162,14 @@ a {
     width: 25%;
   }
 
+  .footer {
+    font-size: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -197,4 +205,5 @@ input[type=number] {
     width: 24%;
   }
 
+ 
 }
